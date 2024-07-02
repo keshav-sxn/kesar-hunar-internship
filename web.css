@@ -1,0 +1,271 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    background-image: url("https://plus.unsplash.com/premium_vector-1681433471745-040a78460dfd?q=80&w=1129&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    background-position: left,center;
+   /* height: 900px;
+    width: 900px;*/
+   /* clip-path: polygon(51% 0, 99% 0, 98% 71%, 44% 71%, 0 70%, 0 0);*/
+    clip-path: polygon(51% 0, 100% 0, 100% 100%, 53% 100%, 0 99%, 0 0);
+
+   
+
+   
+    /* clip-path: inset(0 20% 15% 10% round 5% 20% 0 10%);*/
+    
+
+}
+nav{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 80px;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+
+   
+}
+
+.logo{
+    color: #ffffff;
+    font-size: 50px;  
+    padding-left: 100px;
+    font-family: Helvetica;
+    font-weight: bold;
+    letter-spacing: 6px;
+    padding-top: 5px;
+}
+.manu a{
+    color: #ffffff;
+    text-decoration: none;
+    padding:10px 20px;
+    margin: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial;
+    
+    
+
+}
+.manu{
+    margin-right: 100px;
+}
+
+
+.logo span{
+    color: red;
+}
+a:hover{
+    background:red ;
+    transition: 0.4;
+}
+.text{
+    margin-top: 100px;
+    margin-left: 80px;
+    max-width:450;
+}
+.text h1{
+    font-size: 50px;
+    margin-left: 10PX;
+    margin-top: 10px;
+}
+.text p{
+    font-size: 20px;
+    font-family: Arial;
+    margin-left: 10px;
+}
+button{
+    color: bisque;
+    background-color: red;
+    border: none;
+    outline: none;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+#About{
+ /* font-weight: bold;*/
+ text-align: center;
+ margin-right: 300px;
+ margin-top: 60px;
+ margin-left: 30px;
+ border: 2px solid black;
+height: 600px;
+width: 600px;
+background-color: rgb(72, 248, 210);
+box-shadow: 0 6px 30px 0 rgba(0, 0, 0, 0.2), 0 8px 50px 0 rgba(0, 0, 0, 0.19);
+}
+#info h1{
+ 
+
+ 
+    
+}
+#info h3{
+    margin-top: 500px;
+}
+#ingo p{
+    font-size: 40px;
+    color: greenyellow;
+    margin-top: 0px;
+ 
+   
+}
+#click{
+    color: red;
+    font-size: 25px;margin-top: 20px;
+}
+
+.folder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  
+}
+
+.text h1{
+    font-size: 60px;
+    font-family: Tahoma;
+    margin-top: 10px;
+    font-weight:300;
+}
+#click{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Arial;
+
+}
+
+
+#box1{
+    background-image: url("whatsapp.jpg");
+    background-size: cover;
+  height: 400px;
+    width: 400px;
+    border-radius: 400px;
+    border: 2px solid;
+    box-shadow: 0 6px 30px 0 rgba(0, 0, 0, 0.2), 0 8px 50px 0 rgba(0, 0, 0, 0.19);
+   margin-left:300px;
+    margin-top:100px;
+  /*  padding: 100px;*/
+   
+  /*  position: relative;*/
+ /*background-size: contain;*/
+
+  
+ 
+
+}
+
+   
+
+.flex{
+    display: flex;
+    background-color: rgb(143, 192, 176);
+    padding-top: 50px;
+    height: 720px;
+}
+#art{
+   margin-left: 485px;
+   margin-top:5px;
+   clip-path: polygon(0% 15%, 0 0, 15% 0%, 85% 0%, 92% 7%, 100% 15%, 100% 85%, 85% 85%, 85% 85%, 14% 85%, 14% 85%, 0 85%);
+ font-size: 300px;
+
+  
+}
+#SKIL{
+    padding: 100px 50px;
+}
+.skills {
+    text-align: center;
+}
+
+.skills h1{
+    font-family: Tahoma;
+    font-size: 60px;
+    font-weight: 400;
+}
+.contentbox{
+    height: 300px;
+    width: 100%;
+    border-radius: 20px;
+    display: flex;
+}
+.s1 h1{
+    font-size: 50px;
+    font-family: TAHOMA;
+    font-weight:bold;
+}
+.s1 h6{
+    font-size: 25px;
+    font-family: Arial;
+    font-weight:300;
+
+}
+.s1{
+    padding-left: 50px;
+    padding-right: 120px;
+    border-right: 4px solid transparent;
+    border-color: #161616;
+
+}
+.s2 h1{
+    font-size: 50px;
+    font-family: TAHOMA;
+    font-weight:bold;
+}
+.s2 h6{
+    font-size: 25px;
+    font-family: Arial;
+    font-weight:300;
+
+}
+.s2{
+    padding-right: 40px;
+    padding-left: 50px;
+}
+#conect{
+    padding: 100px 50px;
+}
+.connect{
+    text-align: center;
+}
+.connect h1{
+    font-family: Tahoma;
+    font-size: 60px;
+    font-weight: 400;
+}
+.footer{
+    text-align: center;
+    background-color: rgb(143, 192, 176);
+}
+.footer h1{
+    font-family: Tahoma;
+    font-size: 40px;
+}
+.footer h6{
+    font-family:Arial;
+    font-size: 28px;
+    font-weight:300;
+}
+#SKIL{
+    background-color:rgb(143, 192, 176) ;
+    
+}
+#conect{
+    background-color:rgb(143, 192, 176);
+}
+body{
+    background-color:rgb(143, 192, 176) ;
+}
+
+
+
